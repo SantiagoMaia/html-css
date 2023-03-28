@@ -1,0 +1,33 @@
+body{
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+nav{
+    background-color: darkgray;
+    margin: 0px;
+    padding: 5px;
+
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+main{
+    background-color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+}
+.noticia{
+    background-color: darkgray;
+}
+section > aside{
+    background-color: rgb(58, 57, 57);
+}

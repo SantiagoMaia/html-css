@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    background-image: linear-gradient(to left,#FF81D0,#400036);
+}
+h1{
+    color: #919151;
+    text-shadow: #33331cd5;
+    font-family: 'kaushan script',cursive;
+    font-size: 3em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+h2{
+    color: #919151;
+    text-shadow: #33331cd5;
+    font-family: 'kaushan script',cursive;
+    font-size: 3em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}

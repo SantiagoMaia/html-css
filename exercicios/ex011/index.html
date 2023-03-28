@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Dinâmincas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="imagem-flex">
+    </picture>
+    <h1>Audios na página</h1>
+    <p>Vamos aprender agora a colocar audios nas nossas páginas</p><br>
+    <p>Bem,existem duas formas de colocar esses aúdios em nossa página. Farei as duas maneiras para poder fixar as duas formas</p>
+    <h2>Primeira forma</h2>
+    <p>A primeira forma de se fazer é da seguinte maneira. Vou abrir uma tag AUDIO e nela ja vai vir o atributo SRC e dentro dele eu adiciono o arquivo de audio, podendo ser nos formatos MP3,OGG E WAV.
+    </p>
+    <p>Fazendo isso eu também coloco o atributo AUTOPLAY que fará com que o aúdio toque autamaticamente ao entrar na página. Caso que queira, também posso usar CONTROLS para aparecer um menu de controles, em que posso fazer o download da música e também alterar a velocidade em que é reproduzida.</p>
+    <audio src="audio/gurenge.mpeg" controls autoplay> 
+    </audio>
+    <h2>Segunda Forma</h2>
+    <p>Bem, na segunda forma eu também abro uma tag AUDIO. Com a tag aberta eu retiro o SCR. Com isso, ponho uma tag SOURCE SCR E TYPE dentro da tag AUDIO.</p>
+    <p>Feito isso, os passos são bem parecidos como da primeira forma, porém, dentro de type é preciso colocar o formato do arquivo que você esteja usando. O autoplay e  controls podem ser usados iguais da primeira forma.</p>
+
+</body>
+</html>
