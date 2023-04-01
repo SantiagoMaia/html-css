@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+</head>
+<body>
+    <h1>Teste de Formulários</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inum1">Digite um numero:</label>
+            <input type="number" name="idade" id="inum1" required min="0" max="100" oninput="isoma.innerHTML = Number(inum1.value)  Number(inum2.value)">
+        </p>
+
+        <p>
+            <label for="inum2">Digite outro número: </label>
+            <input type="number" name="numero" id="inum2" required min="0" max="100" oninput="isoma.innerHTML = Number(inum1.value) +
+              Number(inum2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+    <h1>Exemplo de formulário com range</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="irange">Nível de satisfação:</label>
+            <input type="range" name="range" id="irange" required max="10" min="1" value="5" oninput="ival.innerHTML = Number(irange.value)">
+            <output id="ival">5</output>
+        </p>
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
