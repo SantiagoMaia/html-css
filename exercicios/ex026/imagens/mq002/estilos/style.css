@@ -8,7 +8,9 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: #233eef;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 h1{
     padding: 10px;
