@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* Mídia para impressoras */
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+menu{
+    display: none; /* Isso remove o menu da página de impressão */
+}
+article::after{
+    content: 'Esse artigo foi impresso dia 01/04/2023, João Pessoa-PB';
+}
+article{
+    width: 100%;
+}
